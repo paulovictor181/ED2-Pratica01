@@ -27,7 +27,7 @@ public class ListaLigadaRegistros {
 
     }
 
-    public void inserir(RegistroClimatico registro){
+    public RegistroClimatico inserir(RegistroClimatico registro){
         RegistroClimatico registroInserido = registro;
         if(primeiro == null){
             primeiro = registroInserido;
@@ -37,6 +37,8 @@ public class ListaLigadaRegistros {
             ultimo = registroInserido;
         }
         tamanho++;
+
+        return  ultimo;
     }
 
     public RegistroClimatico buscar(int IdRegistro){

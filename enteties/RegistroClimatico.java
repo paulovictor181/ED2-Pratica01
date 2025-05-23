@@ -89,13 +89,11 @@ public class RegistroClimatico {
 
     @Override
     public String toString() {
-        return "RegistroClimatico {\n" +
-                "  idRegistro    = " + idRegistro + "\n" +
-                "  idDispositivo = '" + idDispositivo + "'\n" +
-                "  dataHora      = " + dataHora + "\n" +
-                "  temperatura   = " + temperatura + "\n" +
-                "  umidade       = " + umidade + "\n" +
-                "  pressao       = " + pressao + "\n" +
-                "}";
+        return "RegistroClimatico { idRegistro=" + idRegistro +
+                ", idDispositivo='" + idDispositivo + '\'' +
+                ", dataHora=" + dataHora +
+                ", temperatura=" + temperatura +
+                ", umidade=" + umidade +
+                ", pressao=" + pressao + " }\n";
     }
 }

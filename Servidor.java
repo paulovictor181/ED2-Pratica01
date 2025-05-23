@@ -10,6 +10,7 @@ public class Servidor {
 
     public static ArvoreAVL<RegistroClimatico> bancoDeDados = new ArvoreAVL<RegistroClimatico>();
     public static ListaLigadaRegistros lista = new ListaLigadaRegistros();
+    private static int autoIncremento = 0;
 
 
     public void inicializarServidor(){
@@ -23,26 +24,20 @@ public class Servidor {
         for (RegistroClimatico registro : listaRegistrosIniciais) {
             lista.inserir(registro);
             bancoDeDados.inserir(registro.getIdRegistro(), registro);
+            autoIncremento++;
         }
 
         listar();
 
     }
 
-    public void inserir(RegistroClimatico os) {
-        //if(!cacheEviction.existe(os.getCodigo())  || !bancoDeDados.existe(os.getCodigo())){
-        //     cacheEviction.inserir(os);
-        //    bancoDeDados.inserir(os.getCodigo(), os);
-        //} else {
-        //    System.out.println("Não foi possível cadastrar");
-        //}
-        // cacheEviction.mostrarCache();
-
+    public void inserir(RegistroClimatico registro) {
+        bancoDeDados.inserir(registro.getIdRegistro(),lista.inserir(registro));
     }
 
     public void listar() {
         //cacheEviction.mostrarCache();
-        //bancoDeDados.ordem();
+        bancoDeDados.ordem();
     }
 
     public boolean existeCache(int codigo) {
@@ -102,5 +97,7 @@ public class Servidor {
         return bancoDeDados.getQuantidadeNo();
     }
 
-
+    public int valorAutoincremento() {
+        return ++autoIncremento;
+    }
 }

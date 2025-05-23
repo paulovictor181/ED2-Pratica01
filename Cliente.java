@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 import enteties.RegistroClimatico;
 import enteties.No;
+import utilities.MicroControladores;
 
 public class Cliente {
 
@@ -16,9 +17,25 @@ public class Cliente {
 
         servidor.inicializarServidor();
 
+        MicroControladores microControlador1 = new MicroControladores("1");
+        MicroControladores microControlador2 = new MicroControladores("2");
+        MicroControladores microControlador3 = new MicroControladores("3");
+        MicroControladores microControlador4 = new MicroControladores("4");
+
+
         int opcao;
 
         do {
+
+            RegistroClimatico temp1 = microControlador1.coletarDados(servidor.valorAutoincremento());
+            servidor.inserir(temp1);
+            RegistroClimatico temp2 = microControlador2.coletarDados(servidor.valorAutoincremento());
+            servidor.inserir(temp2);
+            RegistroClimatico temp3 = microControlador3.coletarDados(servidor.valorAutoincremento());
+            servidor.inserir(temp3);
+            RegistroClimatico temp4 = microControlador4.coletarDados(servidor.valorAutoincremento());
+            servidor.inserir(temp4);
+
             exibirMenu();
             
             System.out.println("Selecione uma opção:");
