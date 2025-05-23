@@ -1,0 +1,2970 @@
+=== Procedimento de inserir ===
+
+Altura pós inserir: 0
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 0
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 0
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 0
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 0
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 0
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Rotação a Esquerda Executada
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 0
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Rotação a Esquerda Executada
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Rotação a Esquerda Executada
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Rotação a Esquerda Executada
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Rotação a Esquerda Executada
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Rotação a Direta Executada
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Rotação a Direta Executada
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Rotação a Esquerda Executada
+
+Altura pós remover: 5
+
+=== Procedimento de remover ===
+
+Rotação a Esquerda Executada
+
+Rotação a Esquerda Executada
+
+Rotação a Direta Executada
+
+Altura pós remover: 5
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 0
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 1
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 2
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 3
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 4
+
+=== Procedimento de inserir ===
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de inserir ===
+
+Rotação a Esquerda Executada
+
+Altura pós inserir: 5
+
+=== Procedimento de remover ===
+
+Altura pós remover: 5
+
