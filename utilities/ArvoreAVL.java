@@ -6,7 +6,7 @@ public class ArvoreAVL<T> {
 
 	private int quantidadeNo;
 
-	EscritorLog escritor = new EscritorLog("src/Log.txt");
+	EscritorLog escritor = new EscritorLog("Log.txt");
 
 	public int getQuantidadeNo(){
 		return quantidadeNo;

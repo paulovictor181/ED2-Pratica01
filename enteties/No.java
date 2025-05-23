@@ -2,10 +2,10 @@ package enteties;
 
 public class No<T> {
 	
-	int chave;
-	T dado;
-	int alturaNo;
-	No<T> esq, dir;
+	public int chave;
+	public T dado;
+	public int alturaNo;
+	public No<T> esq, dir;
 	
 	public No(int chave, T dado) {
 		this.chave = chave;
