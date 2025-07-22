@@ -2,6 +2,8 @@ package utilities;
 
 import enteties.No;
 
+import java.util.concurrent.RecursiveTask;
+
 public class ArvoreAVL<T> {
 
 	private int quantidadeNo;
@@ -13,6 +15,8 @@ public class ArvoreAVL<T> {
 	}
 
 	No<T> raiz = null;
+
+	T ultimoElementoRemovido = null;
 
 	public ArvoreAVL() {
 		quantidadeNo = 0;
@@ -88,11 +92,18 @@ public class ArvoreAVL<T> {
 
 	}
 
-	public void remover(int chave, T dado) {
+	public T remover(int chave, T dado) {
 		escritor.escreverLog("=== Procedimento de remover ===");
 		raiz = remover(raiz, chave, dado);
 		escritor.escreverLog("Altura pós remover: " + alturaArv());
-		quantidadeNo--;
+		if(ultimoElementoRemovido != null){
+			quantidadeNo--;
+			T dadoRemovido = ultimoElementoRemovido;
+			ultimoElementoRemovido = null;
+			return dadoRemovido;
+		} else {
+			return null;
+		}
 	}
 
 	private No<T> remover(No<T> arv, int chave, T dado) {
@@ -107,6 +118,9 @@ public class ArvoreAVL<T> {
 			arv.dir = remover(arv.dir, chave, dado);
 
 		else {
+			if (this.ultimoElementoRemovido == null) {
+				this.ultimoElementoRemovido = arv.getDado();
+			}
 
 			if (arv.esq == null && arv.dir == null)
 
@@ -159,12 +173,16 @@ public class ArvoreAVL<T> {
 
 		if (fb > 1 && fbSubArvEsq < 0) {
 
+			escritor.escreverLog("Rotação Dupla à Direita");
+
 			arv.esq = res(arv.esq);
 			return rds(arv);
 
 		}
 
 		if (fb < -1 && fbSubArvDir > 0) {
+
+			escritor.escreverLog("Rotação Dupla à Esquerda");
 
 			arv.dir = rds(arv.dir);
 			return res(arv);
@@ -260,7 +278,11 @@ public class ArvoreAVL<T> {
 
 	public T buscarDado(int codigo) {
 		No<T> no = buscar(raiz, codigo);
-     	return no.getDado();
+		if( no != null) {
+			return no.getDado();
+		} else {
+			return null;
+		}
     }
 
 	public No<T> buscar(int codigo) {

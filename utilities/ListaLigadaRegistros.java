@@ -20,7 +20,7 @@ public class ListaLigadaRegistros {
             System.out.println("Banco Vazio!!!");
         } else {
             while(registro != null){
-                System.out.println(registro);
+                System.out.println("Lista Ligada: " + registro);
                 registro = registro.getProximo();
             }
         }
@@ -34,11 +34,12 @@ public class ListaLigadaRegistros {
             ultimo = registroInserido;
         } else {
             ultimo.setProximo(registroInserido);
+            registroInserido.setAnterior(ultimo);
             ultimo = registroInserido;
         }
         tamanho++;
 
-        return  ultimo;
+        return  registroInserido;
     }
 
     public RegistroClimatico buscar(int IdRegistro){
@@ -53,6 +54,7 @@ public class ListaLigadaRegistros {
         return null;
     }
 
+    /*
     public RegistroClimatico buscarAnterior(int IdRegistro){
         RegistroClimatico registro = primeiro;
         RegistroClimatico registroAnterior = null;
@@ -68,6 +70,25 @@ public class ListaLigadaRegistros {
         }
 
         return null;
+    }
+     */
+    public RegistroClimatico buscarAnterior(int IdRegistro) {
+        RegistroClimatico atual = primeiro;
+
+        // Se a lista estiver vazia ou o ID for o primeiro, não há anterior.
+        if (primeiro == null || primeiro.getIdRegistro() == IdRegistro) {
+            return null;
+        }
+
+        // Percorre a lista olhando para o próximo nó
+        while (atual.getProximo() != null) {
+            if (atual.getProximo().getIdRegistro() == IdRegistro) {
+                return atual; // Encontrou o nó anterior ao que será removido
+            }
+            atual = atual.getProximo();
+        }
+
+        return null; // Não encontrou o registro
     }
 
     public RegistroClimatico removerPrimeiro(){
@@ -87,7 +108,6 @@ public class ListaLigadaRegistros {
                 primeiro = primeiro.getProximo();
             }
             registro.setProximo(null);
-
             tamanho--;
         }
 
@@ -107,14 +127,8 @@ public class ListaLigadaRegistros {
                 primeiro = null;
                 ultimo = null;
             } else {
-                RegistroClimatico registro = primeiro;
-
-                while(registro.getProximo() != ultimo){
-                    registro = registro.getProximo();
-                }
-
-                ultimo = registro;
-                ultimo.setProximo(null);
+                ultimo = ultimo.getAnterior(); // Acesso direto ao penúltimo
+                ultimo.setProximo(null); // O penúltimo agora é o último
             }
             tamanho--;
         }
@@ -150,5 +164,73 @@ public class ListaLigadaRegistros {
                 return removido;
             }
         }
+    }
+/*
+    public boolean remover(RegistroClimatico registro) {
+        if (registro != null){
+            if (registro == primeiro) {
+                removerPrimeiro();
+                return true;
+            }
+
+            if (registro == ultimo) {
+                removerUltimo();
+                return true;
+            }
+
+            RegistroClimatico proximo = registro.getProximo();
+
+            registro.setIdRegistro(proximo.getIdRegistro());
+            registro.setIdDispositivo(proximo.getIdDispositivo());
+            registro.setDataHora(proximo.getDataHora());
+            registro.setTemperatura(proximo.getTemperatura());
+            registro.setUmidade(proximo.getUmidade());
+            registro.setPressao(proximo.getPressao());
+            registro.setProximo(proximo.getProximo());
+
+            if (proximo == ultimo) {
+                ultimo = registro;
+            }
+
+            proximo.setProximo(null);
+            tamanho--;
+            return true;
+        }
+        return false;
+    }
+ */
+
+    public boolean remover(RegistroClimatico registroParaRemover) {
+        if (registroParaRemover == null) {
+            return false; // Não se pode remover um objeto nulo
+        }
+
+        if (registroParaRemover == primeiro) {
+            removerPrimeiro();
+            return true;
+        }
+
+        if (registroParaRemover == ultimo) {
+            removerUltimo();
+            return true;
+        }
+
+        // Lógica para remover um nó do meio
+        RegistroClimatico anterior = registroParaRemover.getAnterior();
+        RegistroClimatico proximo = registroParaRemover.getProximo();
+
+        // Se o nó não estiver corretamente ligado na lista, 'anterior' pode ser nulo.
+        if (anterior == null) {
+            return false;
+        }
+
+        anterior.setProximo(proximo);
+        proximo.setAnterior(anterior);
+
+        registroParaRemover.setProximo(null);
+        registroParaRemover.setAnterior(null);
+
+        tamanho--;
+        return true; // Sucesso na remoção
     }
 }

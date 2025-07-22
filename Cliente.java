@@ -1,40 +1,38 @@
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
+import java.util.LinkedList;
 import java.util.Scanner;
 
+import enteties.RegistroAuxiliar;
 import enteties.RegistroClimatico;
 import enteties.No;
 import utilities.MicroControladores;
+import utilities.TabelaHashDispositivos;
 
 public class Cliente {
 
     private static Scanner sc = new Scanner(System.in);
     private static Servidor servidor = new Servidor();
 
+    private static MicroControladores microControlador1 = new MicroControladores("1");
+    private static MicroControladores microControlador2 = new MicroControladores("2");
+    private static MicroControladores microControlador3 = new MicroControladores("3");
+    private static MicroControladores microControlador4 = new MicroControladores("4");
+    private static MicroControladores microControlador5 = new MicroControladores("5");
+
+
     public static void main(String[] args) throws Exception {
         
 
         servidor.inicializarServidor();
-
-        MicroControladores microControlador1 = new MicroControladores("1");
-        MicroControladores microControlador2 = new MicroControladores("2");
-        MicroControladores microControlador3 = new MicroControladores("3");
-        MicroControladores microControlador4 = new MicroControladores("4");
 
 
         int opcao;
 
         do {
 
-            RegistroClimatico temp1 = microControlador1.coletarDados(servidor.valorAutoincremento());
-            servidor.inserir(temp1);
-            RegistroClimatico temp2 = microControlador2.coletarDados(servidor.valorAutoincremento());
-            servidor.inserir(temp2);
-            RegistroClimatico temp3 = microControlador3.coletarDados(servidor.valorAutoincremento());
-            servidor.inserir(temp3);
-            RegistroClimatico temp4 = microControlador4.coletarDados(servidor.valorAutoincremento());
-            servidor.inserir(temp4);
 
             exibirMenu();
             
@@ -44,22 +42,40 @@ public class Cliente {
 
             switch (opcao) {
                 case 1:
-                    cadastrarOS();
+                    cadastrarRegistro();
                     break;
                 case 2:
-                    listarOS();
+                    listarRegistros();
                     break;
                 case 3:
-                    alterarOS();
+                    alterarRegistro();
                     break;
                 case 4:
-                    removerOS();
+                    removerRegistro();
                     break;
                 case 5:
-                    buscarOS();
+                    buscarRegistro();
                     break;
                 case 6:
-                    quantidadeOS();
+                    quantidadeRegistros();
+                    break;
+                case 7:
+                    listarRegistrosLista();
+                    break;
+                case 8:
+                    listarRegistrosTabela();
+                    break;
+                case 9:
+                    cadastroMicro();
+                    break;
+                case 10:
+                    cadastroMicro10();
+                    break;
+                case 11:
+                    alteraMicro();
+                    break;
+                case 12:
+                    remover50();
                     break;
                 case 0:
                     System.out.println("Encerrando...");
@@ -70,117 +86,189 @@ public class Cliente {
                     break;
             }
 
+
+
         }while (opcao != 0);
 
        
 
     }
 
+    private static void alteraMicro() {
+        servidor.alterar10();
+    }
+
+    private static void cadastroMicro() {
+        servidor.inserir10erro();
+    }
+
+    private static void cadastroMicro10() {
+        servidor.inserir10();
+    }
+
     private static void exibirMenu() {
         System.out.println("\n==============================");
         System.out.println("       - MENU PRINCIPAL       ");
         System.out.println("==============================");
-        System.out.println("1  - Cadastrar OS");
-        System.out.println("2  - Listar todas as OS");
-        System.out.println("3  - Alterar OS");
-        System.out.println("4  - Remover OS");
-        System.out.println("5  - Buscar OS");
+        System.out.println("1  - Cadastrar Registro");
+        System.out.println("2  - Listar todos os Registros");
+        System.out.println("3  - Alterar Registro");
+        System.out.println("4  - Remover Registro");
+        System.out.println("5  - Buscar Registro");
         System.out.println("6  - Acessar a quantidade de registros");
+        System.out.println("7  - Listar todos os Registros na lista");
+        System.out.println("8  - Listar todos os Registros na tabela");
         System.out.println("0  - Sair");
+        System.out.println("\n==============================");
+        System.out.println("       - FUNÇÕES MICROCONTROLADORES       ");
+        System.out.println("==============================");
+        System.out.println("9  - Cadastra 10 Registros 2 com erro");
+        System.out.println("10  - Cadastra 10 Registros");
+        System.out.println("11  - Alterar 10 Registros");
+        System.out.println("12  - Remover 50 Registros");
         System.out.println("==============================");
     }
 
-    private static void cadastrarOS() {
-        System.out.println("\n- Cadastrar Nova Ordem de Serviço:");
-        System.out.print("* Código: ");
-        int codigo = sc.nextInt();
+    private static void cadastrarRegistro() {
+        System.out.println("\n Cadastrar Novo Registro Climático:");
+
+        System.out.print("* ID do Dispositivo: ");
+        String idDispositivo = sc.nextLine();
         sc.nextLine();
 
-        System.out.print("* Nome: ");
-        String nome = sc.nextLine();
+        LocalDate dataHora = null;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-        System.out.print("* Descrição: ");
-        String descricao = sc.nextLine();
+        while (dataHora == null) {
+            try {
+                System.out.print("* Data da Medição (formato: dd/MM/yyyy): ");
+                String data = sc.nextLine();
+                dataHora = LocalDate.parse(data, formatter);
+            } catch (DateTimeParseException e) {
+                System.out.println("Formato de data inválido. Tente novamente.");
+            }
+        }
 
-        // RegistroClimatico reg = new RegistroClimatico();
-        // servidor.inserir(reg);
+        System.out.print("* Temperatura (ºC): ");
+        double temperatura = sc.nextDouble();
+
+        System.out.print("* Umidade (%): ");
+        double umidade = sc.nextDouble();
+
+        System.out.print("* Pressão (hPa): ");
+        double pressao = sc.nextDouble();
+        sc.nextLine(); // consumir quebra de linha final
+
+        RegistroClimatico reg = new RegistroClimatico(
+                servidor.valorAutoincremento(),
+                pressao,
+                umidade,
+                temperatura,
+                dataHora,
+                idDispositivo
+        );
+
+        servidor.inserir(reg);
     }
 
-    private static void listarOS() {
-        System.out.println("\n Listagem de Todas as Ordens de Serviço:");
+    private static void listarRegistros() {
+        System.out.println("Listagem de Todos os Registros:");
         servidor.listar();
     }
 
-    private static void alterarOS() {
-        System.out.print("\n Informe o código da OS que deseja alterar: ");
+    private static void listarRegistrosLista() {
+        System.out.println("Listagem de Todos os Registros:");
+        servidor.listarLista();
+    }
+
+    private static void listarRegistrosTabela() {
+        System.out.println("Listagem de Todos os Registros:");
+        servidor.listarTabela();
+    }
+
+    private static void alterarRegistro() {
+        System.out.print("\n Informe o Id do Registro Climatico que deseja alterar: ");
         int codigo = sc.nextInt();
         sc.nextLine();
 
-        // No<OrdemDeServico> ordemAlterar = servidor.alterarBanco(codigo);
+        RegistroClimatico registroAlterar = servidor.alterarBanco(codigo);
 
-        // if (ordemAlterar != null) {
-            System.out.println(" OS encontrada. Informe os novos dados:");
-            System.out.print("* Novo Nome: ");
-            String nome = sc.nextLine();
+        if (registroAlterar != null) {
+            RegistroClimatico registroClimatico = registroAlterar;
 
-            System.out.print("* Nova Descrição: ");
-            String descricao = sc.nextLine();
+            System.out.println(" Registro encontrado. Informe os novos dados:");
+            System.out.print("* Novo ID do Dispositivo: ");
+            String idDispositivo = sc.nextLine();
 
-            LocalDateTime dataHoraSolicitacao = null;
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+            registroClimatico.setIdDispositivo(idDispositivo);
 
-            while (dataHoraSolicitacao == null) {
+            LocalDate dataHora = null;
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
+            while (dataHora == null) {
                 try {
-                    System.out.print("* Nova Hora da Solicitação (formato: dd/MM/yyyy HH:mm:ss): ");
-                    String dataHora = sc.nextLine();
-                    dataHoraSolicitacao = LocalDateTime.parse(dataHora, formatter);
+                    System.out.print("* Nova Data da Medição (formato: dd/MM/yyyy): ");
+                    String data = sc.nextLine();
+                    dataHora = LocalDate.parse(data, formatter);
+                    sc.nextLine();
                 } catch (DateTimeParseException e) {
-                    System.out.println("Formato inválido. Tente novamente.");
+                    System.out.println("Formato de data inválido. Tente novamente.");
                 }
             }
 
+            registroClimatico.setDataHora(dataHora);
+
+            System.out.print("* Nova Temperatura (ºC): ");
+            double temperatura = sc.nextDouble();
+            registroClimatico.setTemperatura(temperatura);
+
+            System.out.print("* Nova Umidade (%): ");
+            double umidade = sc.nextDouble();
+            registroClimatico.setUmidade(umidade);
+
+            System.out.print("* Nova Pressão (hPa): ");
+            double pressao = sc.nextDouble();
+            registroClimatico.setPressao(pressao);
+
             System.out.println("v Ordem de Serviço alterada com sucesso!");
 
-            // OrdemDeServico ordemTemp = new OrdemDeServico(codigo,nome,descricao,dataHoraSolicitacao);
-
-            // ordemAlterar.setDado(ordemTemp);
-            
-            // if(servidor.existeCache(codigo)){
-            //    servidor.alterarCache(ordemTemp);
-            // }
-        //} else {
-        //    System.out.println("X Ordem de Serviço não encontrada.");
-        //}
-    }
-
-    private static void removerOS() {
-        System.out.print("\n Informe o código da OS que deseja remover: ");
-        int codigo = sc.nextInt();
-        sc.nextLine(); // Limpar o buffer
-
-        if (servidor.remover(codigo)) {
-            System.out.println("V Ordem de Serviço removida com sucesso!");
         } else {
-            System.out.println("X Ordem de Serviço não encontrada.");
+            System.out.println("X Registro não encontrada.");
         }
     }
 
-    private static void buscarOS(){
-        System.out.print("\n Informe o código da OS que deseja buscar: ");
-        int codigo = sc.nextInt();
+    private static void removerRegistro() {
+        System.out.print("\n Informe o Id do Registro que deseja remover: ");
+        int id = sc.nextInt();
         sc.nextLine(); // Limpar o buffer
 
-        // OrdemDeServico os = servidor.buscar(codigo);
-
-        // if(os != null){
-        //    System.out.println("OS encontrada:");
-        //    System.out.println(os);
-        // } else {
-        //    System.out.println("OS não encontrada");
-        // }
+        if (servidor.remover(id)) {
+            System.out.println("V Registro Climático removida com sucesso!");
+        } else {
+            System.out.println("X Registro Climático não encontrada.");
+        }
     }
 
-    public static void quantidadeOS(){
+    private static void remover50() {
+        servidor.remover50();
+    }
+
+    private static void buscarRegistro(){
+        System.out.print("\n Informe o Id do Registro que deseja buscar: ");
+        int id = sc.nextInt();
+        sc.nextLine(); // Limpar o buffer
+
+        RegistroClimatico registro = servidor.buscar(id);
+
+        if(registro != null){
+            System.out.println("Registro encontrado:");
+            System.out.println(registro);
+        } else {
+            System.out.println("Registro não encontrado");
+        }
+    }
+
+    public static void quantidadeRegistros(){
         System.out.println("Quantidade de Registros: " + servidor.quantidadeRegistros());
     }
 }
