@@ -1,13 +1,10 @@
-import enteties.RegistroAuxiliar;
-import enteties.RegistroClimatico;
+import enteties.*;
 import utilities.*;
-import enteties.No;
 
+import java.io.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Random;
+import java.util.*;
 
 public class Servidor {
 
@@ -39,9 +36,20 @@ public class Servidor {
         listar();
     }
 
-    public String mensagemServidor(String mensagem) {
+    public Mensagem mensagemServidor(String mensagem, NoHuffman raiz) {
 
-        String[] partes = mensagem.split("<#DIV#>");
+        String resposta;
+        NoHuffman raizResposta;
+        Map<Character, String> codigos = new HashMap<>();
+        String  respostaCodificada;
+
+        System.out.println(mensagem);
+
+        String mensagemDecodificada = ArvoreHuffman.decodificar(mensagem,raiz);
+
+        System.out.println(mensagemDecodificada);
+
+        String[] partes = mensagemDecodificada.split("<#DIV#>");
 
         switch (partes[0]) {
             case "cadastrar":
@@ -65,10 +73,30 @@ public class Servidor {
                 );
 
                 inserir(reg);
-                return "Registro cadastrado com sucesso!";
+
+                resposta = "Registro cadastrado com sucesso!";
+
+                raizResposta = ArvoreHuffman.construirArvoreHuffman(resposta);
+                ArvoreHuffman.gerarCodigos(raizResposta, "", codigos);
+
+                respostaCodificada = ArvoreHuffman.codificar(resposta,codigos);
+
+                Mensagem msgCadastro = new Mensagem(respostaCodificada,raizResposta);
+
+                return msgCadastro;
 
             case "listartodos":
-                return "Listando Lista de Registros... \n" + lista.listarMensagem() + "Listando Banco de Dados Tabela Hash...\n" + bancoDeDados.imprimirMensagem();
+                resposta = "Listando Lista de Registros... \n" + lista.listarMensagem() + "Listando Banco de Dados Tabela Hash...\n" + bancoDeDados.imprimirMensagem();
+
+                raizResposta = ArvoreHuffman.construirArvoreHuffman(resposta);
+                ArvoreHuffman.gerarCodigos(raizResposta, "", codigos);
+
+                respostaCodificada = ArvoreHuffman.codificar(resposta,codigos);
+
+                Mensagem msgListar = new Mensagem(respostaCodificada,raizResposta);
+
+                return msgListar;
+
             case "alterar":
                 int idAlterar = Integer.parseInt(partes[1]);
                 RegistroClimatico registroAlterar = buscar(idAlterar);
@@ -79,33 +107,118 @@ public class Servidor {
                     registroAlterar.setTemperatura(Double.parseDouble(partes[4]));
                     registroAlterar.setDataHora(LocalDate.parse(partes[5]));
                     registroAlterar.setIdDispositivo(partes[6]);
-                    return "Registro alterado com sucesso! \n" + registroAlterar;
+                    //return "Registro alterado com sucesso! \n" + registroAlterar;
+                    resposta = "Registro alterado com sucesso! \n" + registroAlterar;
+
                 } else {
-                    return "Registro não encontrado!";
+                    //return "Registro não encontrado!";
+                    resposta = "Registro não encontrado!";
+
                 }
+
+                raizResposta = ArvoreHuffman.construirArvoreHuffman(resposta);
+                ArvoreHuffman.gerarCodigos(raizResposta, "", codigos);
+
+                respostaCodificada = ArvoreHuffman.codificar(resposta,codigos);
+
+                Mensagem msgAlterar = new Mensagem(respostaCodificada,raizResposta);
+
+                return msgAlterar;
+
 
             case "remover":
                 int idRemocao = Integer.parseInt(partes[1]);
                 boolean resultado = remover(idRemocao);
                 if (resultado) {
-                    return "Registro removido com sucesso!";
+                    // return "Registro removido com sucesso!";
+                    resposta = "Registro removido com sucesso!";
+
                 } else {
-                    return "Falha ao remover registro!";
+                    // return "Falha ao remover registro!";
+                    resposta = "Falha ao remover registro!";
+
                 }
+
+                raizResposta = ArvoreHuffman.construirArvoreHuffman(resposta);
+                ArvoreHuffman.gerarCodigos(raizResposta, "", codigos);
+
+                respostaCodificada = ArvoreHuffman.codificar(resposta,codigos);
+
+                Mensagem msgRemover = new Mensagem(respostaCodificada,raizResposta);
+
+                return msgRemover;
+
             case "buscar":
                 int idBusca = Integer.parseInt(partes[1]);
                 RegistroClimatico registro = buscar(idBusca);
-                return registro.registroMensagem();
+                // return registro.registroMensagem();
+
+                resposta = registro.registroMensagem();
+
+                raizResposta = ArvoreHuffman.construirArvoreHuffman(resposta);
+                ArvoreHuffman.gerarCodigos(raizResposta, "", codigos);
+
+                respostaCodificada = ArvoreHuffman.codificar(resposta,codigos);
+
+                Mensagem msgBusca = new Mensagem(respostaCodificada,raizResposta);
+
+                return msgBusca;
+
             case "quantidade":
                 Integer quantidade = bancoDeDados.getQuantidadeNo();
-                return "Quantidade de Registros: " + (quantidade != null ? quantidade : 0);
+
+                // return "Quantidade de Registros: " + (quantidade != null ? quantidade : 0);
+
+                resposta = "Quantidade de Registros: " + (quantidade != null ? quantidade : 0);
+
+                raizResposta = ArvoreHuffman.construirArvoreHuffman(resposta);
+                ArvoreHuffman.gerarCodigos(raizResposta, "", codigos);
+
+                respostaCodificada = ArvoreHuffman.codificar(resposta,codigos);
+
+                Mensagem msgQuantidade = new Mensagem(respostaCodificada,raizResposta);
+
+                return msgQuantidade;
             case "listarlista":
-                return "Listando Lista de Registros... \n" + lista.listarMensagem();
+                resposta = "Listando Lista de Registros... \n" + lista.listarMensagem();
+
+                raizResposta = ArvoreHuffman.construirArvoreHuffman(resposta);
+                ArvoreHuffman.gerarCodigos(raizResposta, "", codigos);
+
+                respostaCodificada = ArvoreHuffman.codificar(resposta,codigos);
+
+                Mensagem msgListarLista = new Mensagem(respostaCodificada,raizResposta);
+
+                return msgListarLista;
+
+                // return "Listando Lista de Registros... \n" + lista.listarMensagem();
             case "listartabela":
-                return "Listando Banco de Dados Tabela Hash...\n" + bancoDeDados.imprimirMensagem();
+
+                resposta = "Listando Banco de Dados Tabela Hash...\n" + bancoDeDados.imprimirMensagem();
+
+                raizResposta = ArvoreHuffman.construirArvoreHuffman(resposta);
+                ArvoreHuffman.gerarCodigos(raizResposta, "", codigos);
+
+                respostaCodificada = ArvoreHuffman.codificar(resposta,codigos);
+
+                Mensagem msgListarTabela = new Mensagem(respostaCodificada,raizResposta);
+
+                return msgListarTabela;
+
+                // return "Listando Banco de Dados Tabela Hash...\n" + bancoDeDados.imprimirMensagem();
         }
 
-        return "Falha na operação";
+
+        resposta = "Falha na operação";
+
+        raizResposta = ArvoreHuffman.construirArvoreHuffman(resposta);
+        ArvoreHuffman.gerarCodigos(raizResposta, "", codigos);
+
+        respostaCodificada = ArvoreHuffman.codificar(mensagem,codigos);
+
+        Mensagem msgFalha = new Mensagem(respostaCodificada,raizResposta);
+
+        return msgFalha;
     }
 
     public void inserir(RegistroClimatico registro) {
@@ -313,5 +426,81 @@ public class Servidor {
 
     public int valorAutoincremento() {
         return ++autoIncremento;
+    }
+
+    public void finalizarServidor1(){
+        String registrosBanco = bancoDeDados.imprimirMensagem();
+
+        Map<Character, String> codigos = new HashMap<>();
+
+        NoHuffman raiz = ArvoreHuffman.construirArvoreHuffman(registrosBanco);
+        ArvoreHuffman.gerarCodigos(raiz, "", codigos);
+
+        String respostaCodificada = ArvoreHuffman.codificar(registrosBanco,codigos);
+
+    }
+
+    public void finalizarServidor() {
+
+        System.out.println("Iniciando finalização do servidor...");
+        try {
+            String registrosBanco = bancoDeDados.imprimirMensagem();
+
+            System.out.println("Codificando registros do banco...");
+
+            Map<Character, String> codigosBanco = new HashMap<>();
+            NoHuffman raizBanco = ArvoreHuffman.construirArvoreHuffman(registrosBanco);
+            ArvoreHuffman.gerarCodigos(raizBanco, "", codigosBanco);
+            String respostaCodificada = ArvoreHuffman.codificar(registrosBanco, codigosBanco);
+
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter("log_banco.txt"))) {
+                writer.write(respostaCodificada);
+            }
+            System.out.println("Registros do banco salvos");
+
+            System.out.printf("Taxa de Compressão (Banco): %.2f%%\n",
+                    (1.0 - (double)respostaCodificada.length() / (registrosBanco.length() * 8)) * 100.0);
+
+        } catch (IOException e) {
+            System.err.println("Erro ao salvar o log do banco: " + e.getMessage());
+            e.printStackTrace();
+        }
+
+        // PARTE DO LOG
+
+        try {
+            System.out.println("Lendo arquivo 'log.txt' para codificação...");
+            StringBuilder conteudoBuilder = new StringBuilder();
+
+            try (BufferedReader reader = new BufferedReader(new FileReader("Log.txt"))) {
+                String linha;
+                while ((linha = reader.readLine()) != null) {
+                    conteudoBuilder.append(linha).append(System.lineSeparator());
+                }
+            }
+
+            String conteudoLog = conteudoBuilder.toString();
+
+            if (conteudoLog.isEmpty()) {
+                System.out.println("'log.txt' está vazio. Nenhum dado para codificar.");
+                return;
+            }
+
+            System.out.println("Codificando conteúdo de 'log.txt'...");
+            Map<Character, String> codigosLog = new HashMap<>();
+            NoHuffman raizLog = ArvoreHuffman.construirArvoreHuffman(conteudoLog);
+            ArvoreHuffman.gerarCodigos(raizLog, "", codigosLog);
+            String logCodificado = ArvoreHuffman.codificar(conteudoLog, codigosLog);
+
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter("log_codificado.txt"))) {
+                writer.write(logCodificado);
+            }
+            System.out.println("Conteúdo de 'log.txt' foi codificado e salvo em 'log_codificado.txt'");
+            System.out.printf("Taxa de Compressão (log.txt): %.2f%%\n",
+                    (1.0 - (double)logCodificado.length() / (conteudoLog.length() * 8)) * 100.0);
+        } catch (IOException e) {
+            System.err.println("Erro ao processar 'log.txt': " + e.getMessage());
+            e.printStackTrace();
+        }
     }
 }

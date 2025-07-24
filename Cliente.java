@@ -2,12 +2,13 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
+import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.Scanner;
 
-import enteties.RegistroAuxiliar;
-import enteties.RegistroClimatico;
-import enteties.No;
+import enteties.*;
+import utilities.ArvoreHuffman;
 import utilities.MicroControladores;
 import utilities.TabelaHashDispositivos;
 
@@ -78,6 +79,7 @@ public class Cliente {
                     remover50();
                     break;
                 case 0:
+                    servidor.finalizarServidor();
                     System.out.println("Encerrando...");
                     break;
             
@@ -170,22 +172,75 @@ public class Cliente {
 
         String mensagem = "cadastrar<#DIV#>" + reg.registroMensagem();
 
-        servidor.mensagemServidor(mensagem);
-        //        servidor.inserir(reg);
+        NoHuffman raiz = ArvoreHuffman.construirArvoreHuffman(mensagem);
+        Map<Character, String> codigos = new HashMap<>();
+        ArvoreHuffman.gerarCodigos(raiz, "", codigos);
+
+        String mensagemCodificada = ArvoreHuffman.codificar(mensagem,codigos);
+
+        // Envio da mensagem
+        Mensagem resposta = servidor.mensagemServidor(mensagemCodificada, raiz);
+
+        // Recebimento e processamento
+        System.out.println(resposta.getMensagem());
+        String mensagemDecodificada = ArvoreHuffman.decodificar(resposta.getMensagem(),resposta.getRaiz());
+        System.out.println(mensagemDecodificada);
+
+        // servidor.inserir(reg);
     }
 
     private static void listarRegistros() {
-        System.out.println(servidor.mensagemServidor("listartodos"));
+        String mensagem = "listartodos";
+
+        NoHuffman raiz = ArvoreHuffman.construirArvoreHuffman(mensagem);
+        Map<Character, String> codigos = new HashMap<>();
+        ArvoreHuffman.gerarCodigos(raiz, "", codigos);
+
+        String mensagemCodificada = ArvoreHuffman.codificar(mensagem,codigos);
+
+        Mensagem resposta = servidor.mensagemServidor(mensagemCodificada, raiz);
+
+        // Mostrar na apresentação
+        // System.out.println(resposta.getMensagem());
+        String mensagemDecodificada = ArvoreHuffman.decodificar(resposta.getMensagem(),resposta.getRaiz());
+        System.out.println(mensagemDecodificada);
         // servidor.listar();
     }
 
     private static void listarRegistrosLista() {
-        System.out.println(servidor.mensagemServidor("listarlista"));
+
+        String mensagem = "listarlista";
+
+        NoHuffman raiz = ArvoreHuffman.construirArvoreHuffman(mensagem);
+        Map<Character, String> codigos = new HashMap<>();
+        ArvoreHuffman.gerarCodigos(raiz, "", codigos);
+
+        String mensagemCodificada = ArvoreHuffman.codificar(mensagem,codigos);
+
+        Mensagem resposta = servidor.mensagemServidor(mensagemCodificada, raiz);
+
+        String mensagemDecodificada = ArvoreHuffman.decodificar(resposta.getMensagem(),resposta.getRaiz());
+        System.out.println(mensagemDecodificada);
+
+        // System.out.println(servidor.mensagemServidor("listarlista"));
         // servidor.listarLista();
     }
 
     private static void listarRegistrosTabela() {
-        System.out.println(servidor.mensagemServidor("listartabela"));
+        String mensagem = "listartabela";
+
+        NoHuffman raiz = ArvoreHuffman.construirArvoreHuffman(mensagem);
+        Map<Character, String> codigos = new HashMap<>();
+        ArvoreHuffman.gerarCodigos(raiz, "", codigos);
+
+        String mensagemCodificada = ArvoreHuffman.codificar(mensagem,codigos);
+
+        Mensagem resposta = servidor.mensagemServidor(mensagemCodificada, raiz);
+
+        String mensagemDecodificada = ArvoreHuffman.decodificar(resposta.getMensagem(),resposta.getRaiz());
+        System.out.println(mensagemDecodificada);
+
+        //System.out.println(servidor.mensagemServidor("listartabela"));
 
         // servidor.listarTabela();
     }
@@ -235,9 +290,20 @@ public class Cliente {
 
         String mensagem = "alterar<#DIV#>" + registroClimatico.registroMensagem();
 
-        String resposta = servidor.mensagemServidor(mensagem);
+        NoHuffman raiz = ArvoreHuffman.construirArvoreHuffman(mensagem);
+        Map<Character, String> codigos = new HashMap<>();
+        ArvoreHuffman.gerarCodigos(raiz, "", codigos);
 
-        System.out.println(resposta);
+        String mensagemCodificada = ArvoreHuffman.codificar(mensagem,codigos);
+
+        Mensagem resposta = servidor.mensagemServidor(mensagemCodificada, raiz);
+
+        String mensagemDecodificada = ArvoreHuffman.decodificar(resposta.getMensagem(),resposta.getRaiz());
+        System.out.println(mensagemDecodificada);
+
+        // String resposta = servidor.mensagemServidor(mensagem);
+
+        // System.out.println(resposta);
 
 
     }
@@ -249,7 +315,19 @@ public class Cliente {
 
         String mensagem = "remover<#DIV#>" + id;
 
-        System.out.println(servidor.mensagemServidor(mensagem));
+        NoHuffman raiz = ArvoreHuffman.construirArvoreHuffman(mensagem);
+        Map<Character, String> codigos = new HashMap<>();
+        ArvoreHuffman.gerarCodigos(raiz, "", codigos);
+
+        String mensagemCodificada = ArvoreHuffman.codificar(mensagem,codigos);
+
+        Mensagem resposta = servidor.mensagemServidor(mensagemCodificada, raiz);
+
+        String mensagemDecodificada = ArvoreHuffman.decodificar(resposta.getMensagem(),resposta.getRaiz());
+        System.out.println(mensagemDecodificada);
+
+
+        // System.out.println(servidor.mensagemServidor(mensagem));
     }
 
     private static void remover50() {
@@ -263,8 +341,20 @@ public class Cliente {
 
         String mensagem = "buscar<#DIV#>" + id;
 
-        String resposta = servidor.mensagemServidor(mensagem);
-        String[] partes = resposta.split("<#DIV#>");
+        NoHuffman raiz = ArvoreHuffman.construirArvoreHuffman(mensagem);
+        Map<Character, String> codigos = new HashMap<>();
+        ArvoreHuffman.gerarCodigos(raiz, "", codigos);
+
+        String mensagemCodificada = ArvoreHuffman.codificar(mensagem,codigos);
+
+        Mensagem resposta = servidor.mensagemServidor(mensagemCodificada, raiz);
+
+        String mensagemDecodificada = ArvoreHuffman.decodificar(resposta.getMensagem(),resposta.getRaiz());
+        System.out.println(mensagemDecodificada);
+
+
+        // String resposta = servidor.mensagemServidor(mensagem);
+        String[] partes = mensagemDecodificada.split("<#DIV#>");
 
         int idRegistro = Integer.parseInt(partes[0]);
         double pressao = Double.parseDouble(partes[1]);
@@ -288,9 +378,23 @@ public class Cliente {
         } else {
             System.out.println("Registro não encontrado");
         }
+
+
     }
 
     public static void quantidadeRegistros(){
-        System.out.println(servidor.mensagemServidor("quantidade"));
+        // System.out.println(servidor.mensagemServidor("quantidade"));
+        String mensagem = "quantidade";
+
+        NoHuffman raiz = ArvoreHuffman.construirArvoreHuffman(mensagem);
+        Map<Character, String> codigos = new HashMap<>();
+        ArvoreHuffman.gerarCodigos(raiz, "", codigos);
+
+        String mensagemCodificada = ArvoreHuffman.codificar(mensagem,codigos);
+
+        Mensagem resposta = servidor.mensagemServidor(mensagemCodificada, raiz);
+
+        String mensagemDecodificada = ArvoreHuffman.decodificar(resposta.getMensagem(),resposta.getRaiz());
+        System.out.println(mensagemDecodificada);
     }
 }
