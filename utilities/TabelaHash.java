@@ -152,11 +152,40 @@ public class TabelaHash {
     public RegistroClimatico buscar(int chave) {
         int h = hash(chave);
         NoHash no = tabela[h];
+        NoHash noAnterior = null;
+
 
         while (no != null) {
             if (no.getChave() == chave) {
+                no.incrementarFrequencia();
+
+                logger.escreverLog("INFO: Chave " + chave + " encontrada. Frequência: " + no.getFrequencia());
+
+                if (noAnterior != null && no.getFrequencia() > noAnterior.getFrequencia()) {
+
+                    noAnterior.setProximo(no.getProximo());
+
+                    NoHash NoAjuste = tabela[h];
+                    NoHash NoAjusteAnterior = null;
+
+                    while (NoAjuste != null && NoAjuste.getFrequencia() > no.getFrequencia()) {
+                        NoAjusteAnterior = NoAjuste;
+                        NoAjuste = NoAjuste.getProximo();
+                    }
+
+                    logger.escreverLog("INFO: No ajustado ");
+
+                    no.setProximo(NoAjuste);
+                    if (NoAjusteAnterior == null) {
+                        tabela[h] = no;
+                    } else {
+                        NoAjusteAnterior.setProximo(no);
+                    }
+                }
+
                 return no.getMicrocontrolador();
             }
+            noAnterior = no;
             no = no.getProximo();
         }
 
@@ -171,7 +200,7 @@ public class TabelaHash {
             System.out.println("Chave --> " + i + " -------------- ");
 
             while (no != null) {
-                System.out.print("Tabela Hash:" + no.getMicrocontrolador().toString());
+                System.out.println("Tabela Hash:" + no.getMicrocontrolador().toString() + " (Freq: " + no.getFrequencia() + ") | ");
                 total++;
                 no = no.getProximo();
             }
@@ -191,6 +220,42 @@ public class TabelaHash {
         System.out.println("Colisões detectadas: " + colisoes);
         logger.escreverLog("INFO: Colisões detectadas: " + colisoes);
 
+    }
+
+    public String imprimirMensagem() {
+        int total = 0;
+        StringBuilder resultado = new StringBuilder();
+
+        for (int i = 0; i < tamanho; i++) {
+            NoHash no = tabela[i];
+            resultado.append("Chave --> ").append(i).append(" -------------- \n");
+
+            while (no != null) {
+                resultado.append("Tabela Hash: ")
+                        .append(no.getMicrocontrolador().toString())
+                        .append(" (Freq: ").append(no.getFrequencia()).append(") | \n");
+
+                total++;
+                no = no.getProximo();
+            }
+        }
+
+        resultado.append("Total de elementos: ").append(total).append("\n");
+        logger.escreverLog("INFO: Total de elementos: " + total);
+
+        resultado.append("Tamanho da tabela (m): ").append(tabela.length).append("\n");
+        logger.escreverLog("INFO: Tamanho da tabela (m): " + tabela.length);
+
+        double fatorCarga = (double) total / tabela.length;
+        resultado.append(String.format("Fator de carga: %.2f\n", fatorCarga));
+
+        resultado.append("Redimensionamentos: ").append(redimensionamentos).append("\n");
+        logger.escreverLog("INFO: Redimensionamentos: " + redimensionamentos);
+
+        resultado.append("Colisões detectadas: ").append(colisoes).append("\n");
+        logger.escreverLog("INFO: Colisões detectadas: " + colisoes);
+
+        return resultado.toString();
     }
 
     public int getQuantidadeNo() {

@@ -3,13 +3,16 @@ import enteties.RegistroClimatico;
 import utilities.*;
 import enteties.No;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Random;
 
 public class Servidor {
 
     // public static ArvoreAVL<RegistroClimatico> bancoDeDados = new ArvoreAVL<RegistroClimatico>();
-    public static TabelaHash bancoDeDados = new TabelaHash(10007);
+    public static TabelaHash bancoDeDados = new TabelaHash(3);
 
     private static TabelaHashDispositivos controladores = new TabelaHashDispositivos(101);
 
@@ -34,6 +37,75 @@ public class Servidor {
 
 
         listar();
+    }
+
+    public String mensagemServidor(String mensagem) {
+
+        String[] partes = mensagem.split("<#DIV#>");
+
+        switch (partes[0]) {
+            case "cadastrar":
+
+                System.out.println(Arrays.toString(partes));
+
+                int id = Integer.parseInt(partes[1]);
+                double pressao = Double.parseDouble(partes[2]);
+                double umidade = Double.parseDouble(partes[3]);
+                double temperatura = Double.parseDouble(partes[4]);
+                LocalDate dataHora = LocalDate.parse(partes[5]);
+                String idDispositivo = partes[6];
+
+                RegistroClimatico reg = new RegistroClimatico(
+                    id,
+                    pressao,
+                    umidade,
+                    temperatura,
+                    dataHora,
+                    idDispositivo
+                );
+
+                inserir(reg);
+                return "Registro cadastrado com sucesso!";
+
+            case "listartodos":
+                return "Listando Lista de Registros... \n" + lista.listarMensagem() + "Listando Banco de Dados Tabela Hash...\n" + bancoDeDados.imprimirMensagem();
+            case "alterar":
+                int idAlterar = Integer.parseInt(partes[1]);
+                RegistroClimatico registroAlterar = buscar(idAlterar);
+
+                if (registroAlterar != null) {
+                    registroAlterar.setPressao(Double.parseDouble(partes[2]));
+                    registroAlterar.setUmidade(Double.parseDouble(partes[3]));
+                    registroAlterar.setTemperatura(Double.parseDouble(partes[4]));
+                    registroAlterar.setDataHora(LocalDate.parse(partes[5]));
+                    registroAlterar.setIdDispositivo(partes[6]);
+                    return "Registro alterado com sucesso! \n" + registroAlterar;
+                } else {
+                    return "Registro não encontrado!";
+                }
+
+            case "remover":
+                int idRemocao = Integer.parseInt(partes[1]);
+                boolean resultado = remover(idRemocao);
+                if (resultado) {
+                    return "Registro removido com sucesso!";
+                } else {
+                    return "Falha ao remover registro!";
+                }
+            case "buscar":
+                int idBusca = Integer.parseInt(partes[1]);
+                RegistroClimatico registro = buscar(idBusca);
+                return registro.registroMensagem();
+            case "quantidade":
+                Integer quantidade = bancoDeDados.getQuantidadeNo();
+                return "Quantidade de Registros: " + (quantidade != null ? quantidade : 0);
+            case "listarlista":
+                return "Listando Lista de Registros... \n" + lista.listarMensagem();
+            case "listartabela":
+                return "Listando Banco de Dados Tabela Hash...\n" + bancoDeDados.imprimirMensagem();
+        }
+
+        return "Falha na operação";
     }
 
     public void inserir(RegistroClimatico registro) {

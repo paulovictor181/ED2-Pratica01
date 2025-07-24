@@ -16,6 +16,8 @@ public class RegistroClimatico {
     RegistroClimatico proximo;
     RegistroClimatico anterior;
 
+    public RegistroClimatico() {}
+
     public RegistroClimatico(int idRegistro, double pressao, double umidade, double temperatura, LocalDate dataHora, String idDispositivo) {
         this.idRegistro = idRegistro;
         this.pressao = pressao;
@@ -116,5 +118,9 @@ public class RegistroClimatico {
                 ", temperatura=" + df.format(temperatura) + " ºC" +
                 ", umidade=" + df.format(umidade) + " %" +
                 ", pressao=" + df.format(pressao) + " hPa }\n";
+    }
+
+    public String registroMensagem() {
+        return idRegistro + "<#DIV#>" + pressao + "<#DIV#>" + umidade + "<#DIV#>" + temperatura + "<#DIV#>" + dataHora + "<#DIV#>" + idDispositivo;
     }
 }

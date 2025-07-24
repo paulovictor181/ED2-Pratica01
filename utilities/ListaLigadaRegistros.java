@@ -27,6 +27,23 @@ public class ListaLigadaRegistros {
 
     }
 
+    public String listarMensagem() {
+        RegistroClimatico registro = primeiro;
+
+        if (registro == null) {
+            return "Banco Vazio!!!";
+        }
+
+        StringBuilder resultado = new StringBuilder();
+
+        while (registro != null) {
+            resultado.append("Lista Ligada: ").append(registro).append("\n");
+            registro = registro.getProximo();
+        }
+
+        return resultado.toString();
+    }
+
     public RegistroClimatico inserir(RegistroClimatico registro){
         RegistroClimatico registroInserido = registro;
         if(primeiro == null){

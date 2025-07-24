@@ -168,73 +168,78 @@ public class Cliente {
                 idDispositivo
         );
 
-        servidor.inserir(reg);
+        String mensagem = "cadastrar<#DIV#>" + reg.registroMensagem();
+
+        servidor.mensagemServidor(mensagem);
+        //        servidor.inserir(reg);
     }
 
     private static void listarRegistros() {
-        System.out.println("Listagem de Todos os Registros:");
-        servidor.listar();
+        System.out.println(servidor.mensagemServidor("listartodos"));
+        // servidor.listar();
     }
 
     private static void listarRegistrosLista() {
-        System.out.println("Listagem de Todos os Registros:");
-        servidor.listarLista();
+        System.out.println(servidor.mensagemServidor("listarlista"));
+        // servidor.listarLista();
     }
 
     private static void listarRegistrosTabela() {
-        System.out.println("Listagem de Todos os Registros:");
-        servidor.listarTabela();
+        System.out.println(servidor.mensagemServidor("listartabela"));
+
+        // servidor.listarTabela();
     }
 
     private static void alterarRegistro() {
+        RegistroClimatico registroClimatico = new RegistroClimatico();
+
         System.out.print("\n Informe o Id do Registro Climatico que deseja alterar: ");
         int codigo = sc.nextInt();
+        registroClimatico.setIdRegistro(codigo);
+
         sc.nextLine();
 
-        RegistroClimatico registroAlterar = servidor.alterarBanco(codigo);
+        System.out.println(" Registro encontrado. Informe os novos dados:");
+        System.out.print("* Novo ID do Dispositivo: ");
+        String idDispositivo = sc.nextLine();
 
-        if (registroAlterar != null) {
-            RegistroClimatico registroClimatico = registroAlterar;
+        registroClimatico.setIdDispositivo(idDispositivo);
 
-            System.out.println(" Registro encontrado. Informe os novos dados:");
-            System.out.print("* Novo ID do Dispositivo: ");
-            String idDispositivo = sc.nextLine();
+        LocalDate dataHora = null;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-            registroClimatico.setIdDispositivo(idDispositivo);
-
-            LocalDate dataHora = null;
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-
-            while (dataHora == null) {
-                try {
-                    System.out.print("* Nova Data da Medição (formato: dd/MM/yyyy): ");
-                    String data = sc.nextLine();
-                    dataHora = LocalDate.parse(data, formatter);
-                    sc.nextLine();
-                } catch (DateTimeParseException e) {
-                    System.out.println("Formato de data inválido. Tente novamente.");
-                }
+        while (dataHora == null) {
+            try {
+                System.out.print("* Nova Data da Medição (formato: dd/MM/yyyy): ");
+                String data = sc.nextLine();
+                dataHora = LocalDate.parse(data, formatter);
+                sc.nextLine();
+            } catch (DateTimeParseException e) {
+                System.out.println("Formato de data inválido. Tente novamente.");
             }
-
-            registroClimatico.setDataHora(dataHora);
-
-            System.out.print("* Nova Temperatura (ºC): ");
-            double temperatura = sc.nextDouble();
-            registroClimatico.setTemperatura(temperatura);
-
-            System.out.print("* Nova Umidade (%): ");
-            double umidade = sc.nextDouble();
-            registroClimatico.setUmidade(umidade);
-
-            System.out.print("* Nova Pressão (hPa): ");
-            double pressao = sc.nextDouble();
-            registroClimatico.setPressao(pressao);
-
-            System.out.println("v Ordem de Serviço alterada com sucesso!");
-
-        } else {
-            System.out.println("X Registro não encontrada.");
         }
+
+        registroClimatico.setDataHora(dataHora);
+
+        System.out.print("* Nova Temperatura (ºC): ");
+        double temperatura = sc.nextDouble();
+        registroClimatico.setTemperatura(temperatura);
+
+        System.out.print("* Nova Umidade (%): ");
+        double umidade = sc.nextDouble();
+        registroClimatico.setUmidade(umidade);
+
+        System.out.print("* Nova Pressão (hPa): ");
+        double pressao = sc.nextDouble();
+        registroClimatico.setPressao(pressao);
+
+        String mensagem = "alterar<#DIV#>" + registroClimatico.registroMensagem();
+
+        String resposta = servidor.mensagemServidor(mensagem);
+
+        System.out.println(resposta);
+
+
     }
 
     private static void removerRegistro() {
@@ -242,11 +247,9 @@ public class Cliente {
         int id = sc.nextInt();
         sc.nextLine(); // Limpar o buffer
 
-        if (servidor.remover(id)) {
-            System.out.println("V Registro Climático removida com sucesso!");
-        } else {
-            System.out.println("X Registro Climático não encontrada.");
-        }
+        String mensagem = "remover<#DIV#>" + id;
+
+        System.out.println(servidor.mensagemServidor(mensagem));
     }
 
     private static void remover50() {
@@ -258,7 +261,26 @@ public class Cliente {
         int id = sc.nextInt();
         sc.nextLine(); // Limpar o buffer
 
-        RegistroClimatico registro = servidor.buscar(id);
+        String mensagem = "buscar<#DIV#>" + id;
+
+        String resposta = servidor.mensagemServidor(mensagem);
+        String[] partes = resposta.split("<#DIV#>");
+
+        int idRegistro = Integer.parseInt(partes[0]);
+        double pressao = Double.parseDouble(partes[1]);
+        double umidade = Double.parseDouble(partes[2]);
+        double temperatura = Double.parseDouble(partes[3]);
+        LocalDate dataHora = LocalDate.parse(partes[4]);
+        String idDispositivo = partes[5];
+
+        RegistroClimatico registro = new RegistroClimatico(
+                idRegistro,
+                pressao,
+                umidade,
+                temperatura,
+                dataHora,
+                idDispositivo
+        );
 
         if(registro != null){
             System.out.println("Registro encontrado:");
@@ -269,6 +291,6 @@ public class Cliente {
     }
 
     public static void quantidadeRegistros(){
-        System.out.println("Quantidade de Registros: " + servidor.quantidadeRegistros());
+        System.out.println(servidor.mensagemServidor("quantidade"));
     }
 }
